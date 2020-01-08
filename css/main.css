@@ -1,0 +1,22 @@
+/* フルサイズ */
+html, body {width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;}
+#reversi {margin: 0; padding: 0;}
+#reversi canvas {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/* タッチ時のハイライトを無効 */
+* {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+/* 背景色 */
+body {
+	background: #fff8ae;
+}
+

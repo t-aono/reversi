@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "ArchivoBlack";
+  src: url("ArchivoBlack.eot?") format('eot'),
+       url("ArchivoBlack.woff") format('woff'),
+       url("ArchivoBlack.otf")  format('opentype');
+}
+.myFontClass {
+  font-family: "ArchivoBlack";
+}
